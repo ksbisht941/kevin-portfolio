@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #C6FF00;
+  --secondary-color: #6c757d;
+  --background-color: #F9FAFB;
+  --text-color: #333333;
+  --section-padding: 5rem 0;
+
+  --primary-font-family: 'Poppins', sans-serif;
+  --secondary-font-family: 'Manrope', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-color) !important;
+}
+
+.section-heading {
+  font-size: 1.2rem;
+  line-height: 140%;
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+  margin-bottom: 0.4rem;
+}
+
+.main-heading {
+  font-size: 2.4rem;
+  line-height: 140%;
+  font-weight: 700;
+  color: var(--text-color);
+  font-family: var(--primary-font-family);
+  margin-bottom: 1.2rem;
+}
